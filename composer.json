@@ -19,7 +19,6 @@
     },
     "minimum-stability": "stable",
     "require": {
-        "iagafonov/application": "^0.0"
     },
     "require-dev": {
         "satooshi/php-coveralls": "^1.0",
