@@ -18,8 +18,10 @@ class ModuleTest extends \Codeception\Test\Unit
     }
 
     // tests
-    public function testSomeFeature()
+    public function testInitModule()
     {
-
+        $this->expectOutputString('{"status":"ok","module":"MyModule"}');
+        $init = new \MyModule\Bootstrap\Init();
+        $init->init([]);
     }
 }
