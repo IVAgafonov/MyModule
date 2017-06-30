@@ -1,6 +1,6 @@
 {
-    "name": "iagafonov/mymodule",
-    "description": "mymodule",
+    "name": "iagafonov/my-module",
+    "description": "my-module",
     "type": "library",
     "license": "MIT",
     "authors": [
